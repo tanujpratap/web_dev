@@ -1,0 +1,32 @@
+.container{
+    height: 500px;
+ 
+    border: 2px solid gray;
+    background-color: darkorange;  
+    display: grid;
+    grid-template-rows: 50px 1fr 30px;
+    grid-template-columns: 200px 1fr 1fr;
+    gap: 8px;
+    vi 
+}
+.box{
+    
+   
+    
+    border: 2px dotted goldenrod;
+    background-color: deeppink;
+
+
+}
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#box4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#box3{
+    grid-column-start: 2;
+    grid-column-end:4 ;
+}
